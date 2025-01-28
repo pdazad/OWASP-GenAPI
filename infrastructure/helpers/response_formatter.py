@@ -28,7 +28,7 @@ def generate_response(query, context, model_path):
 
         start_time = time.time()
 
-        result = text_gen_pipeline(prompt, max_new_tokens=150, do_sample=True, temperature=0.4)
+        result = text_gen_pipeline(prompt, max_new_tokens=80, do_sample=True, temperature=0.6)
         raw_response = result[0]["generated_text"]
 
         end_time = time.time()
