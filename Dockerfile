@@ -1,4 +1,4 @@
-# Usamos una imagen base de Python (versión a tu elección)
+# Usamos una imagen base de Python 
 FROM python:3.11-slim
 
 # Establecemos el directorio de trabajo dentro del contenedor

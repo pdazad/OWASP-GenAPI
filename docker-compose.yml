@@ -7,13 +7,13 @@ services:
     # Mapeamos el puerto 8000 del contenedor al 8000 local
     ports:
       - "8000:8000"
-    # Si necesitas variables de entorno para configuración, agrégalas aquí
+    # Variables de entorno
     environment:
       MODEL_PATH: "pdazad/fine_tuned_bloom_owasp"
       INDEX_PATH: "./data/model/indice_faiss.index"
       DATA_FILE: "./data/model/owasp_cleaned_dataset.json"
       EMBEDDING_MODEL_NAME: "sentence-transformers/all-MiniLM-L12-v2"
       TOP_K: "3"
-    # Volúmenes (si deseas montar algo desde tu host local)
+    # Volúmenes para montar el código fuente
     volumes:
       - .:/app

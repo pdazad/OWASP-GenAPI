@@ -131,10 +131,11 @@ def run_inference_tests(index, data, model_path):
 
     # Preguntas de prueba
     test_cases = [
-        {"query": "¿Qué es el control de acceso roto?", "expected": "Control de acceso..."},
-        {"query": "¿Cómo prevenir fallos criptográficos?", "expected": "Para prevenir fallos..."},
-        {"query": "¿Qué impacto tiene la inyección SQL?", "expected": "La inyección SQL puede..."},
+        {"query": "¿Qué es el control de acceso roto?", "expected": "Control de acceso roto ocurre cuando un sistema no restringe correctamente el acceso a recursos o funciones, permitiendo a usuarios no autorizados realizar acciones indebidas."},
+        {"query": "¿Cómo prevenir fallos criptográficos?", "expected": "Para prevenir fallos criptográficos, se deben usar algoritmos seguros, gestionar correctamente las claves, evitar la reutilización de claves débiles y aplicar protocolos de cifrado recomendados."},
+        {"query": "¿Qué impacto tiene la inyección SQL?", "expected": "La inyección SQL puede comprometer la base de datos, permitiendo a un atacante acceder, modificar o eliminar información, e incluso obtener acceso administrativo al sistema."},
     ]
+
 
     predictions = []
     references = []
