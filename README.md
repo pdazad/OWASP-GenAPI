@@ -162,6 +162,7 @@ OWASP-GENAPI/
 ### Modelo e Inferencia
 
 #### Fine-Tuning del Modelo
+
 El modelo utilizado en este proyecto está basado en **BLOOM-560m**, un modelo generativo desarrollado por Hugging Face. Este modelo fue ajustado específicamente para responder preguntas relacionadas con los riesgos de seguridad del OWASP Top 10.
 
 - **Entrenamiento:**
@@ -174,6 +175,7 @@ El modelo utilizado en este proyecto está basado en **BLOOM-560m**, un modelo g
   - Los mejores hiperparámetros se determinaron mediante validación con métricas como `eval_loss`.
 
 #### Inferencia
+
 El modelo inferencial se integra con un índice FAISS para recuperar documentos relevantes. El flujo de inferencia sigue estos pasos:
 
 1. **Consulta en lenguaje natural:**
@@ -189,6 +191,7 @@ El modelo inferencial se integra con un índice FAISS para recuperar documentos 
    - La respuesta es procesada para eliminar contenido irrelevante y truncada hasta el último punto completo para garantizar claridad.
 
 #### Evaluación
+
 El rendimiento del modelo se evaluó con preguntas de prueba y métricas de calidad como **ROUGE-L** para medir la similitud entre las respuestas generadas y las esperadas.
 
 ---
