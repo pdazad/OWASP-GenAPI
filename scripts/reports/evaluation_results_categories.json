@@ -1,0 +1,395 @@
+[
+    {
+        "robustez": {
+            "model_name": "bigscience/bloom-560m",
+            "avg_bleu": 6.56279996519294e-232,
+            "avg_rouge1": 0.08754191690106344,
+            "avg_rougeL": 0.05945759318855637,
+            "avg_latency": 1.5467545986175537,
+            "total_time": 9.106590270996094,
+            "details": [
+                {
+                    "question": "K\u00f3mo prebenir XSS?",
+                    "expected": "Validando entradas y escapando caracteres especiales.",
+                    "generated": "K\u00f3mo prebenir XSS? - Stack Overflow en espa\u00f1ol\nEstoy usando un plugin para que mis scripts de php se actualicen en caso de que uno de mis scripts se ejecute en un proceso de una p\u00e1gina web. El problema es que al ejecutar el script, este se ejecuta en un proceso diferente al que est\u00e1 programado en la p\u00e1gina web. Por ejemplo, si ejecuto el",
+                    "latency": 1.5769131183624268,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                },
+                {
+                    "question": "Q es un CSRF?",
+                    "expected": "Un ataque que permite realizar acciones no autorizadas en nombre de un usuario autenticado.",
+                    "generated": "Q es un CSRF? \u00bfSon v\u00e1lidas las cookies para la navegaci\u00f3n y para el registro de la sesi\u00f3n?\nNo. El CSRF no es necesario para la navegaci\u00f3n y para el registro de la sesi\u00f3n y, por lo tanto, no afecta a la funcionalidad de los sitios web ni a la seguridad de las transacciones en l\u00ednea.",
+                    "latency": 1.3865633010864258,
+                    "bleu": 9.418382295637229e-232,
+                    "rouge1": 0.10526315789473685,
+                    "rougeL": 0.07894736842105263
+                },
+                {
+                    "question": "Que\u00e9 es SQL injection?",
+                    "expected": "Un ataque que explota fallos en la validaci\u00f3n de entradas para ejecutar consultas maliciosas en una base de datos.",
+                    "generated": "Que\u00e9 es SQL injection? Es la soluci\u00f3n?\nHola, tengo un proyecto y necesito saber si es posible que en el proyecto se pueda modificar el contenido de un campo de la tabla, ya que en el mismo se encuentra un campo que se llama ID, y quiero que se modifique el ID del campo ID, ya que al hacer esto me sale una consulta que dice que no puedo modificar el ID",
+                    "latency": 1.6431500911712646,
+                    "bleu": 1.01730155760827e-231,
+                    "rouge1": 0.21505376344086022,
+                    "rougeL": 0.12903225806451613
+                },
+                {
+                    "question": "Com\u00f3o evitar SQL INJECTION?",
+                    "expected": "Usando sentencias preparadas y validando entradas del usuario.",
+                    "generated": "Com\u00f3o evitar SQL INJECTION? - Stack Overflow en espa\u00f1ol\nTengo un proyecto con PHP y SQL que tengo que hacer en mi sitio, pero me sale el siguiente error:\nSQL Error: 1301: The type 'int(10)' is not allowed in this syntax.\nSQL Error: 1301: The type 'int(10)' is not allowed in this syntax.\nSQL Error: 13",
+                    "latency": 1.5803918838500977,
+                    "bleu": 6.659801989051833e-232,
+                    "rouge1": 0.029850746268656716,
+                    "rougeL": 0.029850746268656716
+                }
+            ]
+        },
+        "respuestas_abiertas": {
+            "model_name": "bigscience/bloom-560m",
+            "avg_bleu": 8.680625813908243e-232,
+            "avg_rouge1": 0.12900957981820516,
+            "avg_rougeL": 0.10911482946523376,
+            "avg_latency": 1.2294124762217205,
+            "total_time": 7.304973840713501,
+            "details": [
+                {
+                    "question": "\u00bfPor qu\u00e9 es importante validar entradas en una aplicaci\u00f3n web?",
+                    "expected": "Validar entradas previene ataques como inyecciones SQL y XSS, mejorando la seguridad de la aplicaci\u00f3n.",
+                    "generated": "\u00bfPor qu\u00e9 es importante validar entradas en una aplicaci\u00f3n web? \u00bfEl uso de un certificado SSL es importante? \u00bfEl uso de un certificado TLS es importante? \u00bfEl uso de un certificado SSL puede hacer que una aplicaci\u00f3n web sea m\u00e1s segura? \u00bfC\u00f3mo validar las entradas en una aplicaci\u00f3n web? \u00bfEl uso de un certificado SSL es importante? \u00bfEl uso de un certificado TLS es importante? \u00bfEl uso",
+                    "latency": 1.5715718269348145,
+                    "bleu": 7.572636698440724e-232,
+                    "rouge1": 0.11363636363636365,
+                    "rougeL": 0.11363636363636365
+                },
+                {
+                    "question": "\u00bfCu\u00e1les son los riesgos de no validar entradas?",
+                    "expected": "La aplicaci\u00f3n puede ser vulnerable a ataques como SQL Injection, XSS y ejecuci\u00f3n de c\u00f3digo remoto.",
+                    "generated": "\u00bfCu\u00e1les son los riesgos de no validar entradas? \u00bfC\u00f3mo comprobar si una entrada ha sido validada? \u00bfDeber\u00eda validar entradas de modo que no se produzca un error?",
+                    "latency": 0.5981049537658691,
+                    "bleu": 7.992219124248642e-232,
+                    "rouge1": 0.12244897959183673,
+                    "rougeL": 0.0816326530612245
+                },
+                {
+                    "question": "Explique c\u00f3mo funciona una vulnerabilidad de tipo CSRF.",
+                    "expected": "CSRF ocurre cuando un atacante induce a un usuario autenticado a ejecutar acciones no deseadas en un sistema donde est\u00e1 logueado, como transferencias de dinero o cambios de configuraci\u00f3n.",
+                    "generated": "Explique c\u00f3mo funciona una vulnerabilidad de tipo CSRF. Tambi\u00e9n explica c\u00f3mo se pueden explotar las vulnerabilidades de CSR.\nCon esta herramienta no solo aprender\u00e1s c\u00f3mo explotar vulnerabilidades de CSRF sino tambi\u00e9n a c\u00f3mo proteger tu informaci\u00f3n personal.\nSi tienes dudas sobre c\u00f3mo explotar las vulnerabilidades de CSR, no dudes en contactar con nosotros.\nLa empresa tecnol\u00f3gica de origen sueco, a trav\u00e9s de su fundaci\u00f3n",
+                    "latency": 1.5185606479644775,
+                    "bleu": 1.0477021619035363e-231,
+                    "rouge1": 0.1509433962264151,
+                    "rougeL": 0.13207547169811318
+                }
+            ]
+        },
+        "multilinguismo": {
+            "model_name": "bigscience/bloom-560m",
+            "avg_bleu": 1.2434509773993315e-155,
+            "avg_rouge1": 0.0939471318108254,
+            "avg_rougeL": 0.08648444524366121,
+            "avg_latency": 1.842038333415985,
+            "total_time": 10.119555234909058,
+            "details": [
+                {
+                    "question": "What is SQL Injection?",
+                    "expected": "A technique that exploits input validation flaws to execute malicious queries on a database.",
+                    "generated": "What is SQL Injection? SQL Injection is a term used in the field of computer science to refer to the practice of injecting arbitrary data into a database. It is not a new practice, but it has been a great way to achieve a certain level of accuracy in the database. In recent years, the popularity of SQL Injection has increased. In recent years, the popularity of SQL In",
+                    "latency": 1.668997049331665,
+                    "bleu": 2.3719909544741387e-155,
+                    "rouge1": 0.09638554216867469,
+                    "rougeL": 0.09638554216867469
+                },
+                {
+                    "question": "Como prevenir XSS?",
+                    "expected": "Validando entradas e escapando caracteres especiais.",
+                    "generated": "Como prevenir XSS? \u00bfQu\u00e9 es XSS y c\u00f3mo prevenirlo? \u00bfQu\u00e9 ocurre si alguien accede a mi web y me pide una contrase\u00f1a? \u00bfQu\u00e9 sucede si alguien entra a mi web y me pide una contrase\u00f1a? \u00bfC\u00f3mo puedo evitar que alguien me robe datos? \u00bfC\u00f3mo puedo evitar que alguien me robe datos? \u00bfC\u00f3mo puedo evitar que alguien me robe datos? \u00bfC\u00f3mo puedo evitar que alguien me robe datos?",
+                    "latency": 1.748516321182251,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                },
+                {
+                    "question": "Qu\u00e9 es un ataque de inyecci\u00f3n SQL?",
+                    "expected": "Un ataque que explota fallos en la validaci\u00f3n de entradas para ejecutar consultas maliciosas en una base de datos.",
+                    "generated": "Qu\u00e9 es un ataque de inyecci\u00f3n SQL? Este es un ataque que se produce cuando un servidor SQL intenta acceder a un archivo de datos almacenado en un servidor. Hay dos tipos de ataques de inyecci\u00f3n SQL: ataques de inyecci\u00f3n de datos y ataques de inyecci\u00f3n de c\u00f3digo. El ataque de inyecci\u00f3n de datos es un tipo de ataque que se produce cuando un servidor SQL intenta acceder a un archivo de datos almacenado",
+                    "latency": 2.1525518894195557,
+                    "bleu": 2.601812955123188e-155,
+                    "rouge1": 0.16000000000000003,
+                    "rougeL": 0.16000000000000003
+                },
+                {
+                    "question": "How to prevent CSRF?",
+                    "expected": "Using CSRF tokens and verifying their validity for each user action.",
+                    "generated": "How to prevent CSRF? This is the section that should be used for the CSRF prevention. I have tried to use the following code to prevent CSRF but it doesn't work. I'm not sure what the problem is. Any help is appreciated.\n<?php\nsession_start();\nsession_name('csrf_token');\nsession_start();\nif (isset($_GET['",
+                    "latency": 1.7980880737304688,
+                    "bleu": 8.231055179516831e-232,
+                    "rouge1": 0.11940298507462686,
+                    "rougeL": 0.08955223880597014
+                }
+            ]
+        }
+    },
+    {
+        "robustez": {
+            "model_name": "PlanTL-GOB-ES/gpt2-base-bne",
+            "avg_bleu": 1.5212916199932997e-232,
+            "avg_rouge1": 0.08901515151515152,
+            "avg_rougeL": 0.08901515151515152,
+            "avg_latency": 0.08067286014556885,
+            "total_time": 1.6008851528167725,
+            "details": [
+                {
+                    "question": "K\u00f3mo prebenir XSS?",
+                    "expected": "Validando entradas y escapando caracteres especiales.",
+                    "generated": "K\u00f3mo prebenir XSS? -El K\u00f3mo el K\u00f3mo el KSS? -El KSS? ",
+                    "latency": 0.1800541877746582,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                },
+                {
+                    "question": "Q es un CSRF?",
+                    "expected": "Un ataque que permite realizar acciones no autorizadas en nombre de un usuario autenticado.",
+                    "generated": "Q es un CSRF? que es un CSRF? ",
+                    "latency": 0.08264613151550293,
+                    "bleu": 6.085166479973199e-232,
+                    "rouge1": 0.2727272727272727,
+                    "rougeL": 0.2727272727272727
+                },
+                {
+                    "question": "Que\u00e9 es SQL injection?",
+                    "expected": "Un ataque que explota fallos en la validaci\u00f3n de entradas para ejecutar consultas maliciosas en una base de datos.",
+                    "generated": "Que\u00e9 es SQL injection? ",
+                    "latency": 0.02525162696838379,
+                    "bleu": 0,
+                    "rouge1": 0.08333333333333334,
+                    "rougeL": 0.08333333333333334
+                },
+                {
+                    "question": "Com\u00f3o evitar SQL INJECTION?",
+                    "expected": "Usando sentencias preparadas y validando entradas del usuario.",
+                    "generated": "Com\u00f3o evitar SQL INJECTION? - ",
+                    "latency": 0.03473949432373047,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                }
+            ]
+        },
+        "respuestas_abiertas": {
+            "model_name": "PlanTL-GOB-ES/gpt2-base-bne",
+            "avg_bleu": 3.661230183987916e-232,
+            "avg_rouge1": 0.1567629900963234,
+            "avg_rougeL": 0.13966897300230632,
+            "avg_latency": 0.02168591817220052,
+            "total_time": 1.5489845275878906,
+            "details": [
+                {
+                    "question": "\u00bfPor qu\u00e9 es importante validar entradas en una aplicaci\u00f3n web?",
+                    "expected": "Validar entradas previene ataques como inyecciones SQL y XSS, mejorando la seguridad de la aplicaci\u00f3n.",
+                    "generated": "\u00bfPor qu\u00e9 es importante validar entradas en una aplicaci\u00f3n web? ",
+                    "latency": 0.023552656173706055,
+                    "bleu": 6.213854539426459e-232,
+                    "rouge1": 0.2962962962962963,
+                    "rougeL": 0.2962962962962963
+                },
+                {
+                    "question": "\u00bfCu\u00e1les son los riesgos de no validar entradas?",
+                    "expected": "La aplicaci\u00f3n puede ser vulnerable a ataques como SQL Injection, XSS y ejecuci\u00f3n de c\u00f3digo remoto.",
+                    "generated": "\u00bfCu\u00e1les son los riesgos de no validar entradas? ",
+                    "latency": 0.018909692764282227,
+                    "bleu": 3.985119463158008e-232,
+                    "rouge1": 0.07142857142857142,
+                    "rougeL": 0.07142857142857142
+                },
+                {
+                    "question": "Explique c\u00f3mo funciona una vulnerabilidad de tipo CSRF.",
+                    "expected": "CSRF ocurre cuando un atacante induce a un usuario autenticado a ejecutar acciones no deseadas en un sistema donde est\u00e1 logueado, como transferencias de dinero o cambios de configuraci\u00f3n.",
+                    "generated": "Explique c\u00f3mo funciona una vulnerabilidad de tipo CSRF. ",
+                    "latency": 0.02259540557861328,
+                    "bleu": 7.847165493792816e-233,
+                    "rouge1": 0.10256410256410256,
+                    "rougeL": 0.05128205128205128
+                }
+            ]
+        },
+        "multilinguismo": {
+            "model_name": "PlanTL-GOB-ES/gpt2-base-bne",
+            "avg_bleu": 5.996895693279736e-233,
+            "avg_rouge1": 0.09523809523809525,
+            "avg_rougeL": 0.07738095238095237,
+            "avg_latency": 0.07110923528671265,
+            "total_time": 1.58546781539917,
+            "details": [
+                {
+                    "question": "What is SQL Injection?",
+                    "expected": "A technique that exploits input validation flaws to execute malicious queries on a database.",
+                    "generated": "What is SQL Injection? es un sistema de traducci\u00f3n de. ",
+                    "latency": 0.08695697784423828,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                },
+                {
+                    "question": "Como prevenir XSS?",
+                    "expected": "Validando entradas e escapando caracteres especiais.",
+                    "generated": "Como prevenir XSS? que es lo correcto? ",
+                    "latency": 0.06216096878051758,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                },
+                {
+                    "question": "Qu\u00e9 es un ataque de inyecci\u00f3n SQL?",
+                    "expected": "Un ataque que explota fallos en la validaci\u00f3n de entradas para ejecutar consultas maliciosas en una base de datos.",
+                    "generated": "Qu\u00e9 es un ataque de inyecci\u00f3n SQL? ",
+                    "latency": 0.022489070892333984,
+                    "bleu": 2.3987582773118944e-232,
+                    "rouge1": 0.28571428571428575,
+                    "rougeL": 0.21428571428571425
+                },
+                {
+                    "question": "How to prevent CSRF?",
+                    "expected": "Using CSRF tokens and verifying their validity for each user action.",
+                    "generated": "How to prevent CSRF? - Bolso de noche, color verde - Violeta - ",
+                    "latency": 0.11282992362976074,
+                    "bleu": 0,
+                    "rouge1": 0.09523809523809525,
+                    "rougeL": 0.09523809523809525
+                }
+            ]
+        }
+    },
+    {
+        "robustez": {
+            "model_name": "google/flan-t5-base",
+            "avg_bleu": 1.030099888882384e-232,
+            "avg_rouge1": 0.043560606060606064,
+            "avg_rougeL": 0.043560606060606064,
+            "avg_latency": 0.1656588315963745,
+            "total_time": 1.8836064338684082,
+            "details": [
+                {
+                    "question": "K\u00f3mo prebenir XSS?",
+                    "expected": "Validando entradas y escapando caracteres especiales.",
+                    "generated": "K\u00f3mo prebenir XSS?",
+                    "latency": 0.16373229026794434,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                },
+                {
+                    "question": "Q es un CSRF?",
+                    "expected": "Un ataque que permite realizar acciones no autorizadas en nombre de un usuario autenticado.",
+                    "generated": "Q es un CSRF?ople for a cause",
+                    "latency": 0.19700908660888672,
+                    "bleu": 4.120399555529536e-232,
+                    "rouge1": 0.09090909090909091,
+                    "rougeL": 0.09090909090909091
+                },
+                {
+                    "question": "Que\u00e9 es SQL injection?",
+                    "expected": "Un ataque que explota fallos en la validaci\u00f3n de entradas para ejecutar consultas maliciosas en una base de datos.",
+                    "generated": "Que\u00e9 es SQL injection?",
+                    "latency": 0.1285393238067627,
+                    "bleu": 0,
+                    "rouge1": 0.08333333333333334,
+                    "rougeL": 0.08333333333333334
+                },
+                {
+                    "question": "Com\u00f3o evitar SQL INJECTION?",
+                    "expected": "Usando sentencias preparadas y validando entradas del usuario.",
+                    "generated": "Com\u00f3o evitar SQL INJECTION?",
+                    "latency": 0.1733546257019043,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                }
+            ]
+        },
+        "respuestas_abiertas": {
+            "model_name": "google/flan-t5-base",
+            "avg_bleu": 3.661230183987916e-232,
+            "avg_rouge1": 0.1567629900963234,
+            "avg_rougeL": 0.13966897300230632,
+            "avg_latency": 0.35508473714192706,
+            "total_time": 2.600369930267334,
+            "details": [
+                {
+                    "question": "\u00bfPor qu\u00e9 es importante validar entradas en una aplicaci\u00f3n web?",
+                    "expected": "Validar entradas previene ataques como inyecciones SQL y XSS, mejorando la seguridad de la aplicaci\u00f3n.",
+                    "generated": "\u00bfPor qu\u00e9 es importante validar entradas en una aplicaci\u00f3n web?",
+                    "latency": 0.1981523036956787,
+                    "bleu": 6.213854539426459e-232,
+                    "rouge1": 0.2962962962962963,
+                    "rougeL": 0.2962962962962963
+                },
+                {
+                    "question": "\u00bfCu\u00e1les son los riesgos de no validar entradas?",
+                    "expected": "La aplicaci\u00f3n puede ser vulnerable a ataques como SQL Injection, XSS y ejecuci\u00f3n de c\u00f3digo remoto.",
+                    "generated": "\u00bfCu\u00e1les son los riesgos de no validar entradas?",
+                    "latency": 0.5552787780761719,
+                    "bleu": 3.985119463158008e-232,
+                    "rouge1": 0.07142857142857142,
+                    "rougeL": 0.07142857142857142
+                },
+                {
+                    "question": "Explique c\u00f3mo funciona una vulnerabilidad de tipo CSRF.",
+                    "expected": "CSRF ocurre cuando un atacante induce a un usuario autenticado a ejecutar acciones no deseadas en un sistema donde est\u00e1 logueado, como transferencias de dinero o cambios de configuraci\u00f3n.",
+                    "generated": "Explique c\u00f3mo funciona una vulnerabilidad de tipo CSRF.",
+                    "latency": 0.31182312965393066,
+                    "bleu": 7.847165493792816e-233,
+                    "rouge1": 0.10256410256410256,
+                    "rougeL": 0.05128205128205128
+                }
+            ]
+        },
+        "multilinguismo": {
+            "model_name": "google/flan-t5-base",
+            "avg_bleu": 5.996895693279736e-233,
+            "avg_rouge1": 0.09415584415584416,
+            "avg_rougeL": 0.07629870129870128,
+            "avg_latency": 0.22485285997390747,
+            "total_time": 2.564960479736328,
+            "details": [
+                {
+                    "question": "What is SQL Injection?",
+                    "expected": "A technique that exploits input validation flaws to execute malicious queries on a database.",
+                    "generated": "What is SQL Injection?",
+                    "latency": 0.10663509368896484,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                },
+                {
+                    "question": "Como prevenir XSS?",
+                    "expected": "Validando entradas e escapando caracteres especiais.",
+                    "generated": "Como prevenir XSS?",
+                    "latency": 0.15366220474243164,
+                    "bleu": 0,
+                    "rouge1": 0.0,
+                    "rougeL": 0.0
+                },
+                {
+                    "question": "Qu\u00e9 es un ataque de inyecci\u00f3n SQL?",
+                    "expected": "Un ataque que explota fallos en la validaci\u00f3n de entradas para ejecutar consultas maliciosas en una base de datos.",
+                    "generated": "Qu\u00e9 es un ataque de inyecci\u00f3n SQL?",
+                    "latency": 0.3435828685760498,
+                    "bleu": 2.3987582773118944e-232,
+                    "rouge1": 0.28571428571428575,
+                    "rougeL": 0.21428571428571425
+                },
+                {
+                    "question": "How to prevent CSRF?",
+                    "expected": "Using CSRF tokens and verifying their validity for each user action.",
+                    "generated": "How to prevent CSRF?d by avoiding exposure to the elements.",
+                    "latency": 0.2955312728881836,
+                    "bleu": 0,
+                    "rouge1": 0.09090909090909091,
+                    "rougeL": 0.09090909090909091
+                }
+            ]
+        }
+    }
+]

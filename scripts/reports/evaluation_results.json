@@ -1,0 +1,113 @@
+[
+    {
+        "model_name": "bigscience/bloom-560m",
+        "avg_bleu": 8.558940947466279e-156,
+        "avg_rouge1": 0.08271573387852459,
+        "avg_rougeL": 0.059885850583525004,
+        "avg_latency": 1.7260854244232178,
+        "total_time": 7.937195777893066,
+        "details": [
+            {
+                "question": "\u00bfQu\u00e9 es una inyecci\u00f3n SQL?",
+                "expected": "Una t\u00e9cnica de ataque que explota fallos en la validaci\u00f3n de entradas.",
+                "generated": "\u00bfQu\u00e9 es una inyecci\u00f3n SQL? \u00bfEs una inyecci\u00f3n SQL? \u2013 Stack Overflow en espa\u00f1ol\nUna inyecci\u00f3n SQL es una forma de hacer que un programa que se ejecuta en un servidor web se ejecute en otro servidor web. Este tipo de inyecci\u00f3n es m\u00e1s com\u00fanmente utilizada para hacer que un programa se ejecute en el servidor web, pero tambi\u00e9n se puede utilizar para hacer que un programa se ejecute en",
+                "latency": 1.6612591743469238,
+                "bleu": 9.418382295637229e-232,
+                "rouge1": 0.13186813186813187,
+                "rougeL": 0.10989010989010989
+            },
+            {
+                "question": "\u00bfC\u00f3mo prevenir XSS?",
+                "expected": "Validando entradas y escapando caracteres especiales.",
+                "generated": "\u00bfC\u00f3mo prevenir XSS? \u00bfCuales son los mejores navegadores? \u00bfCuales son los mejores antivirus? \u00bfCuales son los mejores firewall? \u00bfCuales son los mejores navegadores web? \u00bfCuales son los mejores antivirus? \u00bfCuales son los mejores firewall? \u00bfCuales son los mejores navegadores web? \u00bfCuales son los mejores antivirus? \u00bfCuales",
+                "latency": 1.641207218170166,
+                "bleu": 0,
+                "rouge1": 0.0,
+                "rougeL": 0.0
+            },
+            {
+                "question": "\u00bfQu\u00e9 es una vulnerabilidad CSRF?",
+                "expected": "Un ataque que permite realizar acciones no autorizadas en nombre de un usuario autenticado.",
+                "generated": "\u00bfQu\u00e9 es una vulnerabilidad CSRF? Cuando un usuario acceda a un sitio web, se le solicita una contrase\u00f1a de seguridad. Esta contrase\u00f1a ser\u00e1 utilizada para acceder a la informaci\u00f3n personal de los usuarios. Esta contrase\u00f1a es utilizada para autenticar el usuario y para proteger los datos de los usuarios. Los datos de los usuarios son almacenados en la base de datos de la empresa y los datos de",
+                "latency": 1.8757898807525635,
+                "bleu": 2.5676822842398837e-155,
+                "rouge1": 0.11627906976744186,
+                "rougeL": 0.06976744186046512
+            }
+        ]
+    },
+    {
+        "model_name": "PlanTL-GOB-ES/gpt2-base-bne",
+        "avg_bleu": 0.0,
+        "avg_rouge1": 0.06666666666666667,
+        "avg_rougeL": 0.06666666666666667,
+        "avg_latency": 0.02333982785542806,
+        "total_time": 1.7066853046417236,
+        "details": [
+            {
+                "question": "\u00bfQu\u00e9 es una inyecci\u00f3n SQL?",
+                "expected": "Una t\u00e9cnica de ataque que explota fallos en la validaci\u00f3n de entradas.",
+                "generated": "\u00bfQu\u00e9 es una inyecci\u00f3n SQL? ",
+                "latency": 0.023545265197753906,
+                "bleu": 0,
+                "rouge1": 0.2,
+                "rougeL": 0.2
+            },
+            {
+                "question": "\u00bfC\u00f3mo prevenir XSS?",
+                "expected": "Validando entradas y escapando caracteres especiales.",
+                "generated": "\u00bfC\u00f3mo prevenir XSS? - ",
+                "latency": 0.02754664421081543,
+                "bleu": 0,
+                "rouge1": 0.0,
+                "rougeL": 0.0
+            },
+            {
+                "question": "\u00bfQu\u00e9 es una vulnerabilidad CSRF?",
+                "expected": "Un ataque que permite realizar acciones no autorizadas en nombre de un usuario autenticado.",
+                "generated": "\u00bfQu\u00e9 es una vulnerabilidad CSRF? ",
+                "latency": 0.018927574157714844,
+                "bleu": 0,
+                "rouge1": 0.0,
+                "rougeL": 0.0
+            }
+        ]
+    },
+    {
+        "model_name": "google/flan-t5-base",
+        "avg_bleu": 0.0,
+        "avg_rouge1": 0.04040404040404041,
+        "avg_rougeL": 0.04040404040404041,
+        "avg_latency": 0.48470036188761395,
+        "total_time": 2.6446895599365234,
+        "details": [
+            {
+                "question": "\u00bfQu\u00e9 es una inyecci\u00f3n SQL?",
+                "expected": "Una t\u00e9cnica de ataque que explota fallos en la validaci\u00f3n de entradas.",
+                "generated": "\u00bfQu\u00e9 es una inyecci\u00f3n SQL?f) a g) a f) a g) a h) a i ) a j ) )",
+                "latency": 1.158452033996582,
+                "bleu": 0,
+                "rouge1": 0.12121212121212122,
+                "rougeL": 0.12121212121212122
+            },
+            {
+                "question": "\u00bfC\u00f3mo prevenir XSS?",
+                "expected": "Validando entradas y escapando caracteres especiales.",
+                "generated": "\u00bfC\u00f3mo prevenir XSS?",
+                "latency": 0.15455031394958496,
+                "bleu": 0,
+                "rouge1": 0.0,
+                "rougeL": 0.0
+            },
+            {
+                "question": "\u00bfQu\u00e9 es una vulnerabilidad CSRF?",
+                "expected": "Un ataque que permite realizar acciones no autorizadas en nombre de un usuario autenticado.",
+                "generated": "\u00bfQu\u00e9 es una vulnerabilidad CSRF?",
+                "latency": 0.1410987377166748,
+                "bleu": 0,
+                "rouge1": 0.0,
+                "rougeL": 0.0
+            }
+        ]
+    }
+]
