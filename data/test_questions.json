@@ -1,0 +1,5 @@
+[
+    {"question": "¿Qué es una inyección SQL?", "expected": "Una técnica de ataque que explota fallos en la validación de entradas."},
+    {"question": "¿Cómo prevenir XSS?", "expected": "Validando entradas y escapando caracteres especiales."},
+    {"question": "¿Qué es una vulnerabilidad CSRF?", "expected": "Un ataque que permite realizar acciones no autorizadas en nombre de un usuario autenticado."}
+]

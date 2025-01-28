@@ -1,0 +1,62 @@
+[
+    {
+      "category": "robustez",
+      "questions": [
+        {
+          "question": "Kómo prebenir XSS?",
+          "expected": "Validando entradas y escapando caracteres especiales."
+        },
+        {
+          "question": "Q es un CSRF?",
+          "expected": "Un ataque que permite realizar acciones no autorizadas en nombre de un usuario autenticado."
+        },
+        {
+          "question": "Queé es SQL injection?",
+          "expected": "Un ataque que explota fallos en la validación de entradas para ejecutar consultas maliciosas en una base de datos."
+        },
+        {
+          "question": "Comóo evitar SQL INJECTION?",
+          "expected": "Usando sentencias preparadas y validando entradas del usuario."
+        }
+      ]
+    },
+    {
+      "category": "respuestas_abiertas",
+      "questions": [
+        {
+          "question": "¿Por qué es importante validar entradas en una aplicación web?",
+          "expected": "Validar entradas previene ataques como inyecciones SQL y XSS, mejorando la seguridad de la aplicación."
+        },
+        {
+          "question": "¿Cuáles son los riesgos de no validar entradas?",
+          "expected": "La aplicación puede ser vulnerable a ataques como SQL Injection, XSS y ejecución de código remoto."
+        },
+        {
+          "question": "Explique cómo funciona una vulnerabilidad de tipo CSRF.",
+          "expected": "CSRF ocurre cuando un atacante induce a un usuario autenticado a ejecutar acciones no deseadas en un sistema donde está logueado, como transferencias de dinero o cambios de configuración."
+        }
+      ]
+    },
+    {
+      "category": "multilinguismo",
+      "questions": [
+        {
+          "question": "What is SQL Injection?",
+          "expected": "A technique that exploits input validation flaws to execute malicious queries on a database."
+        },
+        {
+          "question": "Como prevenir XSS?",
+          "expected": "Validando entradas e escapando caracteres especiais."
+        },
+        {
+          "question": "Qué es un ataque de inyección SQL?",
+          "expected": "Un ataque que explota fallos en la validación de entradas para ejecutar consultas maliciosas en una base de datos."
+        },
+        {
+          "question": "How to prevent CSRF?",
+          "expected": "Using CSRF tokens and verifying their validity for each user action."
+        }
+      ]
+    }
+  ]
+  
