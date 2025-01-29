@@ -190,10 +190,6 @@ El modelo inferencial se integra con un índice FAISS para recuperar documentos 
    - El modelo genera una respuesta a partir de la consulta y el contexto proporcionado.
    - La respuesta es procesada para eliminar contenido irrelevante y truncada hasta el último punto completo para garantizar claridad.
 
-#### Evaluación
-
-El rendimiento del modelo se evaluó con preguntas de prueba y métricas de calidad como **ROUGE-L** para medir la similitud entre las respuestas generadas y las esperadas.
-
 ---
 
 ## Ejecución del Proyecto
