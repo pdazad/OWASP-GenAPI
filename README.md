@@ -163,7 +163,7 @@ OWASP-GENAPI/
 
 #### Fine-Tuning del Modelo
 
-El modelo utilizado en este proyecto está basado en **BLOOM-560m**, un modelo generativo desarrollado por Hugging Face. Este modelo fue ajustado específicamente para responder preguntas relacionadas con los riesgos de seguridad del OWASP Top 10.
+El modelo utilizado en este proyecto está basado en **BLOOM-560m**, un modelo generativo desarrollado por Bigscience. Este modelo fue ajustado específicamente para responder preguntas relacionadas con los riesgos de seguridad del OWASP Top 10.
 
 - **Entrenamiento:**
   - Se unieron datos de preguntas y respuestas (QA) con un conjunto de datos procesados y enriquecidos sobre OWASP.
